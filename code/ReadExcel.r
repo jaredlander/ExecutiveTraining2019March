@@ -5,7 +5,7 @@ _
 
 # We will now read all the file names in the Data_Science_Training directory
 # with list.files
-excel_files <- _('./data/Comps/', full.names = TRUE)
+excel_files <- _('./data/Comps/', full.names = TRUE, pattern = 'xls')
 
 # let's take a look at excel_files
 excel_files
