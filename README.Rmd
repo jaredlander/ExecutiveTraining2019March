@@ -64,6 +64,8 @@ After running this code you will be in an RStudio Project called ``r repoName`-m
 knitr::include_graphics('images/ProjectCorner.png')
 ```
 
+All code from this point forward should be ran in the new window.
+
 # Packages and Data
 
 The following lines of code will install necessary packages and download data for the class. Run the following two lines of code for this to be handled automatically. This requires that you are using an [RStudio Project](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects) setup exactly like this repo, which is done if you followed the preceding code.

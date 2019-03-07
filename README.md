@@ -42,6 +42,8 @@ of RStudio (the name in the image may be different).
 
 ![](images/ProjectCorner.png)<!-- -->
 
+All code from this point forward should be ran in the new window.
+
 # Packages and Data
 
 The following lines of code will install necessary packages and download
