@@ -20,7 +20,7 @@ km1
 # the actual compSampCLuster$Region
 table(km1$cluster, compsSampCluster$Region)
 
-# we are going to combine a new cloumn names cluster to compSampCLuster
+# we are going to combine a new column names cluster to compSampCLuster
 compsSampCluster %>% cbind(cluster = as.factor(km1$cluster)) -> km1plot
 
 ## let's visualize how well we did
